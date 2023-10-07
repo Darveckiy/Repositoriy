@@ -1,0 +1,9 @@
+    @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+body {
+    color: rgb(213, 26, 129);
+    font-family: 'AR One Sans', sans-serif;
+}   
+.abzac {
+    text-decoration: line-through double #010103;
+    color: red
+}
