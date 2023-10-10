@@ -7,3 +7,14 @@ body {
     text-decoration: line-through double #010103;
     color: red
 }
+div {
+    text-indent: 27px; /* Отступ первой строки в пикселах */
+    }
+        .paragraph{
+						color: rgb(96, 119, 210);
+                        background-color: rgb(196, 186, 184);
+        }
+    
+        form {
+            font-size: 30px;
+        }
