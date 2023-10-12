@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+.spisok{
+    font-size: 20px;
+    background-color: rgb(134, 134, 134);
+    width: 400px;   
+    height: 450px;
+    margin: 30px auto;
+    padding:15px 10px 20px 10px;
+    color: aliceblue;
+    border-radius: 20px
+    
+}
+.tovar{
+    display: inline-block;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.img {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-bottom: 15px;
+    background-color: gray;
+}
+.buy {
+    background-color: rgb(61, 61, 61);
+    color: aliceblue;
+    border-radius: 12px;
+    width: 50%;
+    height: 35px;
+    padding: 0 10px 0 10px;
+}

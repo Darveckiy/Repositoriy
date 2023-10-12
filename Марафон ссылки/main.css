@@ -18,3 +18,9 @@ div {
         form {
             font-size: 30px;
         }
+    .login {
+        display: inline-block;
+    }
+    .spisok {
+        font-size: 100px !important;
+    }
