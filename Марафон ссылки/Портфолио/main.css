@@ -1,0 +1,337 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+body{
+    background:#07203F ;
+}
+.myself {
+    font-size: 40px;
+    font-family: 'AR One Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 4px solid #FFFFFF;
+    background-color:  #07203F;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+
+.nickname {
+display:flex;
+flex-direction:row;
+justify-content: start;
+
+}
+.links{
+    display:flex;   
+    gap: 30px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: #9e9898;
+}
+
+.self-info{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 10px 0px 30px;
+    width: 600px;       
+} 
+.img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 3px solid rgb(122, 175, 118);
+    display: flex;
+}
+.qualities ~ li {
+    flex-direction:row-reverse;
+    font-size: 28px;
+    margin-top: 7px;
+}
+button {
+        width: 55%;
+        border-radius: 90px;
+        background-color: white;
+        padding: 30px 75px;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+}
+button:hover {
+	background-color:rgb(163, 163, 4);
+}
+
+/* Я умею */
+
+.skills {
+    padding         : 135px 55px 150px;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-12/1639651310_196-catherineasquithgallery-com-p-fon-akvarel-rozovii-pastelnii-kremovii-323.jpg');
+    border-top: solid 5px #FFFFFF;
+    text-transform : uppercase;
+    border-bottom   : solid 5px #FFFFFF;
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.first-skill {
+    border: solid 5px #9470D8;
+    color: rgb(23, 17, 17);
+    width: 100%;
+    height: 100%;
+    padding-top: 70%;
+    position   : relative;
+}
+.skill-name{
+    padding: 7px;
+}
+.first-skill img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position  : absolute;
+    top: 0;
+    left: 0;
+}
+.mycapabilities {
+font-size: 65px ;
+font-family: 'AR One Sans', sans-serif;
+text-align: center;
+font-weight   : bold;
+text-transform: uppercase;
+color: #07203F;
+padding-bottom: 55px;
+}
+.first-skill h2 {
+    font-family: Montserrat;
+    font-size : 50px;
+    font-weight: bold;
+    text-transform  : uppercase;
+    color           : #521844;
+    background-color: #FFE4C4;
+    width     : 100%;
+    height    : 25%;
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    text-align: center;
+}
+
+.second-skill {
+    border: solid 5px #FFE4C4;
+    width : 100%;
+    height: 100%;
+    padding-top: 60%;
+    position: relative;
+    width   : 100%;
+}
+
+.second-skill img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom  : 0;
+    left    : 0;
+}
+
+.second-skill h2 {
+    font-family   : Montserrat;
+    font-size  : 50px;
+    font-weight   : bold;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+    background-color: #9470D8;
+    width: 100%;
+    height  : 25%;
+    position  : absolute;
+    top      : 0;
+    left: 0;
+    text-align: center;
+}
+
+.third-skill {
+    border : solid 5px #9470D8;
+    width  : 100%;
+    height : 100%;
+    padding-top: 60%;
+    position   : relative;
+    width      : 100%;
+}
+
+.third-skill img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+}
+
+.third-skill h2 {
+    font-family   : Montserrat;
+    font-size     : 50px;
+    font-weight   : bold;
+    text-transform: uppercase;
+    color         : #50153d;
+    background-color: #FFE4C4;
+    text-align: center;
+    width     : 100%;
+    height  : 25%;
+    position  : absolute;
+    bottom    : 0;
+    left   : 0;
+}
+
+                  /* ПРОЕКТЫ */
+
+.projects {
+    padding         : 135px 55px 150px;
+    background-color: #07203F;
+    border-top      : solid 5px #FFFFFF;
+    border-bottom   : solid 5px #FFFFFF;
+}
+
+.my-projects {
+    text-align    : center;
+    font-family   : Montserrat;
+    font-size     : 72px;
+    font-weight   : bold;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+    padding-bottom: 55px;
+}
+
+.list-of-projects h3 {
+    text-align    : center;
+    font-family   : Montserrat;
+    font-size     : 50px;
+    font-weight   : bold;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+    padding-bottom: 55px;
+    padding-top   : 55px;
+}
+
+.list-of-projects p {
+    text-align    : center;
+    font-family   : Montserrat;
+    font-size     : 36px;
+    font-weight   : bold;
+    color         : #FFFFFF;
+    padding-bottom: 55px;
+}
+
+.project-containers {
+    display           : grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap               : 40px;
+}
+
+.project-image {
+    position: relative;
+    bottom  : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 100%;
+}
+
+.project-image img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    box-shadow: 12px 12px 2px 1px #192732;
+}
+
+.project {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 40px;
+    padding-bottom       : 55px;
+}
