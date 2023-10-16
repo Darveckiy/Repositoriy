@@ -1,3 +1,5 @@
+/* Обнуляющие стили */
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -76,10 +78,14 @@ h6 {
 	font-weight: inherit;
 	font-size: inherit;
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
 body{
     background:#07203F ;
 }
+
+/* My links */
 .myself {
     font-size: 40px;
     font-family: 'AR One Sans', sans-serif;
@@ -92,6 +98,10 @@ body{
     padding:10px 30px;
 }
 
+.about-title {
+    font-size: 70px;
+    font-weight: 700;
+}
 .nickname {
 display:flex;
 flex-direction:row;
@@ -109,48 +119,56 @@ a{
 a:hover{
     color: #9e9898;
 }
+ /* About me */
 
-.self-info{
+.about-me{
+	font-size: 36px;
+	font-weight: 700;
+	padding: 0px 55px 0px 55px;
     color: white;
-    font-size: 40px;
+}
+.about-container{
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.text-about{
+    width: 55%;
     display: flex;
-    justify-content: space-between;
-    margin: 85px 10px 0px 30px;
-    width: 600px;       
-} 
-.img{
-    height: 400px;
-    width: 400px;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.title-about{
+	font-family: 'AR-One-Sans', sans-serif;
+	font-size: 64px;    
+	font-weight: 800;
+}
+button {
+    border-radius: 90px;
+    background-color: rgb(171, 158, 158);
+    padding: 30px 55px;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button:hover {
+background-color:rgb(168, 168, 157);
+}
+.self-img img{
+    height: 70%;
+    width: 75%;
     border-radius: 50%;
     border: 3px solid rgb(122, 175, 118);
     display: flex;
+    margin:45px 60px 0px 70px;
 }
-.qualities ~ li {
-    flex-direction:row-reverse;
-    font-size: 28px;
-    margin-top: 7px;
-}
-button {
-        width: 55%;
-        border-radius: 90px;
-        background-color: white;
-        padding: 30px 75px;
-        font-size: 30px;
-        font-weight: 600;
-        text-transform: uppercase;
-}
-button:hover {
-	background-color:rgb(163, 163, 4);
-}
-
-/* Я умею */
+/* Skills, expirience */
 
 .skills {
     padding         : 135px 55px 150px;
-    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-12/1639651310_196-catherineasquithgallery-com-p-fon-akvarel-rozovii-pastelnii-kremovii-323.jpg');
-    border-top: solid 5px #FFFFFF;
+    /* background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-12/1639651310_196-catherineasquithgallery-com-p-fon-akvarel-rozovii-pastelnii-kremovii-323.jpg'); */
+    background: radial-gradient(#4a709d, #07203F);
     text-transform : uppercase;
-    border-bottom   : solid 5px #FFFFFF;
 }
 .skills-container {
     display: grid;
@@ -266,18 +284,15 @@ padding-bottom: 55px;
     left   : 0;
 }
 
-                  /* ПРОЕКТЫ */
+                  /* ПРОЕКТЫ,РАБОТЫ */
 
 .projects {
     padding         : 135px 55px 150px;
     background-color: #07203F;
-    border-top      : solid 5px #FFFFFF;
-    border-bottom   : solid 5px #FFFFFF;
 }
 
 .my-projects {
     text-align    : center;
-    font-family   : Montserrat;
     font-size     : 72px;
     font-weight   : bold;
     text-transform: uppercase;
@@ -287,7 +302,6 @@ padding-bottom: 55px;
 
 .list-of-projects h3 {
     text-align    : center;
-    font-family   : Montserrat;
     font-size     : 50px;
     font-weight   : bold;
     text-transform: uppercase;
@@ -297,11 +311,10 @@ padding-bottom: 55px;
 }
 
 .list-of-projects p {
-    text-align    : center;
-    font-family   : Montserrat;
-    font-size     : 36px;
-    font-weight   : bold;
-    color         : #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
     padding-bottom: 55px;
 }
 
@@ -326,7 +339,7 @@ padding-bottom: 55px;
     position  : absolute;
     top       : 0;
     left      : 0;
-    box-shadow: 12px 12px 2px 1px #192732;
+    box-shadow: 8px 8px 3px 2px #192732;
 }
 
 .project {
@@ -334,4 +347,50 @@ padding-bottom: 55px;
     grid-template-columns: 1fr 1fr;
     gap                  : 40px;
     padding-bottom       : 55px;
+}
+
+/* Контакты */
+.contacts-title{
+    padding-top: 230px;
+    margin-bottom: 50px;
+    padding:20px ;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.contacts {
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+	flex-flow: row wrap;
+	gap: 5%;
+    margin-left: 30px;
+}
+.contacts > div{
+    width: 28%;
+    height: 420px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    gap: 15px;
+    text-align: center;
+    margin:10px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    border-radius: 60px;
+}
+.contacts-title{
+    text-align: center;
+font-size: 100px;
+}
+
+.git{
+background-color: #e58908;
+}
+.telegramm {
+    background-color: #cabf48;
+}
+.mail {
+    background-color: #e58908;
 }
