@@ -85,7 +85,7 @@ body{
     background:#07203F ;
 }
 
-/* My links */
+/* My links header*/
 .myself {
     font-size: 40px;
     font-family: 'AR One Sans', sans-serif;
@@ -349,6 +349,56 @@ padding-bottom: 55px;
     padding-bottom       : 55px;
 }
 
+/* Заявка */
+.application {
+    background-color: #07203F;
+    color: white;
+    padding-top: 230px;
+    font-size: 110px;
+    font-weight: 700;
+    text-align: center;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+label {
+    margin-top: 65px;
+    padding: 80px 60px 40px 60px;
+    background-color: #40638e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 102px;
+    width: auto;
+    border-radius: 84px;
+}
+input {
+    width: 800px;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: #cabf48;
+    height: 80px;   
+    padding: 15px;
+    display: inline-block;
+    border-radius: 24px;
+}       
+.request-button {
+    display: flex;
+}
+button {
+    margin: 0px 40px 10px 40px;
+    border-radius: 90px;
+    background-color: rgb(171, 158, 158);
+    padding: 30px 55px;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button:hover {
+background-color:rgb(168, 168, 157);
+}
+
 /* Контакты */
 .contacts-title{
     padding-top: 230px;
@@ -366,9 +416,10 @@ padding-bottom: 55px;
 	flex-flow: row wrap;
 	gap: 5%;
     margin-left: 30px;
+    margin-bottom: 120px;
 }
 .contacts > div{
-    width: 28%;
+    width: 28%; 
     height: 420px;
     display: flex;
     flex-direction:column;
@@ -385,7 +436,7 @@ padding-bottom: 55px;
 font-size: 100px;
 }
 
-.git{
+.github{
 background-color: #e58908;
 }
 .telegramm {
@@ -393,4 +444,39 @@ background-color: #e58908;
 }
 .mail {
     background-color: #e58908;
+}
+
+    /* My links footer */
+.myself-footer {
+    font-size: 50px;
+    font-family: 'AR One Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-top: 5px solid #FFFFFF;
+    background-color:  #07203F;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+
+.about-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+.nickname {
+display:flex;
+flex-direction:row;
+justify-content: start;
+
+}
+.links{
+    display:flex;   
+    gap: 30px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: #9e9898;
 }

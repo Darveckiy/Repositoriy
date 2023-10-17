@@ -7,25 +7,26 @@
     <title>Портфолио</title>
 </head>
 <body>
-    <section class="about-header">
-    <header>
-    <div class="myself">
-        <div class="nickname">@Darvetsky</div>
-        <div class="links">
-        <a href="#">Обо мне</a>
-        <a href="#">Мои работы</a>
-        <a href="#">Контакты</a>
+<header>
+    <section class="about-header"></section>
+        <div class="myself">
+            <div class="nickname">@Darvetsky</div>
+            <div class="links">
+            <a href="#about-anchor">Обо мне</a>
+            <a href="#projects-anchor">Мои работы</a>
+            <a href="#contact-anchor">Контакты</a>
+            </div>
         </div>
-    </div>
+    <section>
 </header>
 <main>
 
 <section class="about-me">
-    <div class="about-container">
+    <div class="about-container" id="about-anchor">
         <div class="text-about">
             <h1 class="title-about">Я-ФРОНТЕНДЕР</h1>
-            <p class="self-info">Я начинающий фронтенд разработчик, информация о котором будет пополняться по мере накопления мной опыта и проектов</p>
-            <button class="my-contacts">Contact me</button>
+            <p class="self-info" >Я начинающий фронтенд разработчик, информация о котором будет пополняться по мере накопления мной опыта и проектов</p>
+            <button class="my-contacts">Связаться со мной</button>
         </div>
     <div class="self-img">
         <img class="img" src="https://misterprot.ru/image/cache/data/brend/aminki/befirst_creatine_monohydrate_120caps-800x1000.jpg" alt="Креатинчик">
@@ -58,8 +59,8 @@
 
 </section> 
 
-<section class="projects">
-<div class="list-of-projects">
+<section class="projects" >
+<div class="list-of-projects" id="projects-anchor">
 <h2 class="my-projects">МОИ РАБОТЫ:</h2>
 <div class="project-containers">
     <div class="first-project project">
@@ -93,27 +94,63 @@
 </div>
 
 </section>
-<h1 class="contacts-title">КОНТАКТЫ</h1>
+
+<section class="application">
+    <h1>Оставьте заявку</h1>
+    <form action="request" method="get">
+        <div class="personal-data"  > 
+            <label >
+                <input  type="name"   placeholder="Ваше имя?" name="name">
+                <input  type="email"  placeholder="Ваша электронная почта?" name="email">
+                <input  type="tel"   placeholder="Ваш телефон?" name="tel">
+                <div class="request-button">
+                <button type="reset">Очистить</button>
+                <button type="submit">Отправить</button>
+            </div>
+            </label>
+        </div>
+    <form>
+    </section>
+
+<h1 class="contacts-title" id="contact-anchor">КОНТАКТЫ</h1>
 <section class="contacts">
-    <div class="git">
-        <h2 class="contact-name">GITHUB</h2>
-        <form action="https://github.com/Darvetsky">
-            <button class="contact-button" type="submit">GITHUB</button>
-        </form>
-    </div>
-    <div class="telegramm">
-        <h2 class="contact-name">TELEGRAM</h2>
-        <form action="https://t.me/Darvetsky">
-            <button class="contact-button" type="submit">TELEGRAM</button>
-        </form>
-    </div>
     <div class="mail">
         <h2 class="contact-name">@mail</h2>
-        <form action="">
+        <form action="https://laced-cantaloupe-3bc.notion.site/13-2bdce6dff1174383a3b085f166eda510" target="_blank">
             <button class="contact-button" type="submit">@mail</button>
         </form>
     </div>
+    
+    <div class="telegramm">
+        <h2 class="contact-name">TELEGRAM</h2>
+        <form action="https://t.me/Darvetsky" target="_blank">
+            <button class="contact-button" type="submit">TELEGRAM</button>
+        </form>
+    </div>
+    <div class="github">
+        <h2 class="contact-name">GITHUB</h2>
+        <form action="https://github.com/Darvetsky" target="_blank">
+            <button class="contact-button" type="submit">GITHUB</button>
+        </form>
+    </div>
+    
 </section>
+
 </main>
+
+<footer>
+
+<section class="about-footer">
+    <div class="myself-footer">
+        <div class="nickname">@Darvetsky</div>
+        <div class="links">
+        <a href="#about-anchor">Обо мне</a>
+        <a href="#projects-anchor">Мои работы</a>
+        <a href="#contact-anchor">Контакты</a>
+        </div>
+    </div>
+<section>
+
+</footer>
 </body>
 </html>
