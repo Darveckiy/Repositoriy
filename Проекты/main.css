@@ -1,0 +1,110 @@
+.weather {
+    width: 621px;
+    height: 383px;
+    border: 1px solid rgb(52, 51, 51);
+    display: flex;
+    flex-direction: column;
+}           
+.weather-app {
+    margin: 14px 9px 10px 12px;
+    border: 1px solid #383737;
+    width: 600px;   
+    height: 359px;
+}
+form {
+    display: flex;
+}
+.search{
+    display: flex;
+    border-bottom: 1px solid rgb(56, 55, 55);
+    gap: 10px;
+}   
+input {
+    display: flex;
+    width: 600px;
+    border: 0px;
+    border-radius: 0px;
+}
+#shape {
+    position: relative;
+    right: 27px;
+    
+}
+
+/* Weather in the city */
+
+.city-weather {
+display: flex;
+flex-direction: column;
+width: 298px;
+height: 302px;
+border-right: 1px solid rgb(56, 55, 55);
+padding: 0px 0px 31px 28px;
+}   
+.city{
+    width: 298px;
+    height: 302px;
+    display: flex;
+    flex-direction: column-reverse;
+
+color: #000;
+font-family:'Courier New', Courier, monospace;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+img {
+    position: relative;
+    bottom: 180px;
+    left: 130px;
+}
+
+.degrees{
+    display: flex;
+    justify-content: start;
+    
+color: #000;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#favorite {
+    position: relative;
+    top: 24px;
+    left: 250px;
+}   
+/* locations */
+
+.added-locations {
+    display: flex;
+    position: relative;
+    bottom: 325px;
+    left: 326px;
+    border-bottom: 1px solid rgb(56, 55, 55);
+    width: 274px;
+
+    color: #000;
+font-family:'Courier New', Courier, monospace;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list-of-locations{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    bottom: 316px;
+    left: 330px;
+    color: #000;
+font-family:'Courier New', Courier, monospace;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
